@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Creatures from './Creatures/Creatures';
 import './App.css';
 
 class App extends Component {
@@ -39,6 +40,8 @@ class App extends Component {
        </ul>
        <h4>Edit User Form</h4>
        <input type="text" placeholder="Favorite Pizza Topping" onChange={this.onChangePizza} />
+       <h4>Mythical Creatures</h4>
+       <Creatures />
       </div>
     );
   }
